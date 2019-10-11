@@ -24,7 +24,7 @@ public class ListHandler implements CommandHandler {
 			ArrayList<Project> list = dao.List(conn);
 			request.setAttribute("list", list);
 			
-			response.sendRedirect(request.getContextPath() + "/list.do");
+			return "/WEB-INF/view/list.jsp";	
 			
 		} catch(Exception e) {
 			e.printStackTrace();
