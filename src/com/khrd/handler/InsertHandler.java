@@ -18,8 +18,6 @@ public class InsertHandler implements CommandHandler {
 	@Override
 	public String process(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		request.setCharacterEncoding("utf-8");
-		String sNo = request.getParameter("no");
-		int no = Integer.parseInt(sNo);
 		String title = request.getParameter("title");
 		String content = request.getParameter("content");
 		String Start_date = request.getParameter("start_date");
