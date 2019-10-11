@@ -11,7 +11,8 @@
 		<table>
 			<tr>
 				<td>프로젝트 이름</td>
-				<td><input type="text" name="title" value="${project.title }"></td>
+				<td><input type="text" name="title" value="${project.title }">
+				<input type="hidden" name="no" value="${project.no }"></td>
 			</tr>
 			<tr>
 				<td>프로젝트 내용</td>

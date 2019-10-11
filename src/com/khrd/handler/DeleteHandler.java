@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.khrd.controller.CommandHandler;
 import com.khrd.dao.ProjectDAO;
-import com.khrd.dto.Project;
 import com.khrd.jdbc.ConnectionProvider;
 import com.khrd.jdbc.JDBCUtil;
 

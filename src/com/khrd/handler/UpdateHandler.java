@@ -59,7 +59,7 @@ public class UpdateHandler implements CommandHandler {
 			try {
 				conn = ConnectionProvider.getConnection();
 				ProjectDAO dao = ProjectDAO.getInstance();
-				Project project = new Project(0, title, content, start_date, end_date, state);
+				Project project = new Project(no, title, content, start_date, end_date, state);
 				dao.update(conn, project);
 				
 				response.sendRedirect(request.getContextPath() + "/list.do");
