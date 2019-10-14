@@ -27,10 +27,10 @@
 		</tr>
 		<c:forEach var="project" items="${list}">
 			<tr>
-				<td><a href="detail.do?no=${project.no}">${project.name}</a></td>
+				<td><a href="detail.do?no=${project.no}">${project.title}</a></td>
 				<td>${project.start_date}</td>
 				<td>${project.end_date}</td>
-				<td>${project.progress}</td>
+				<td>${project.state}</td>
 			</tr>
 		</c:forEach>
 	</table>

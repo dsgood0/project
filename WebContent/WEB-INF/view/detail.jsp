@@ -10,7 +10,7 @@
 	$(function() {
 		$("#del").click(function() {
 			if(confirm("삭제하시겠습니까?") == true) {
-				location.href = "delete.do?no=${project.no }";	
+				location.href = "delete.do?no=${project.no}";	
 			} else{
 				return false;
 			}
@@ -41,8 +41,8 @@
 			<td>${project.state }</td>
 		</tr>
 	</table>
-	<a href="update.do?no=${project.no }">수정</a>
-	<a href="#">삭제</a> <!-- jqeury로 확인, 취소 구현 -->
+	<a href="update.do?no=${project.no}">수정</a>
+	<a href="#" id="del">삭제</a> <!-- jqeury로 확인, 취소 구현 -->
 	<a href="list.do">돌아가기</a>
 </body>
 </html>

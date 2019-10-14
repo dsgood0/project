@@ -29,7 +29,7 @@ public class UpdateHandler implements CommandHandler {
 				Project project = dao.SelectById(conn, no);
 				request.setAttribute("project", project);
 				
-				return "/WEB-INF/view/insertForm.jsp";
+				return "/WEB-INF/view/updateForm.jsp";
 				
 			} catch(Exception e) {
 				e.printStackTrace();
