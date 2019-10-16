@@ -6,6 +6,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	td, th {
+		padding:5px;
+		border:1px solid black;
+	}
+	a {
+		border:1px solid black;
+		background:skyblue;
+		margin:5px;
+		padding:5px;
+		display:inline-block;
+		text-decoration: none;
+		color:black;
+	}
+</style>
 </head>
 <body>
 	<form action="update.do" method="post">

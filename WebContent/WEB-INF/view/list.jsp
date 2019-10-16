@@ -14,6 +14,15 @@
 		padding:5px;
 		border:1px solid black;
 	}
+	body>a:first-child {
+		border:1px solid black;
+		background:skyblue;
+		margin:5px;
+		padding:5px;
+		display:inline-block;
+		text-decoration: none;
+		color:black;
+	}
 </style>
 </head>
 <body>

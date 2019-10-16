@@ -5,6 +5,24 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	td, th {
+		padding:5px;
+		border:1px solid black;
+	}
+	a {
+		border:1px solid black;
+		background:skyblue;
+		margin:5px;
+		padding:5px;
+		display:inline-block;
+		text-decoration: none;
+		color:black;
+	}
+</style>
 </head>
 <body>
 	<form action="add.do" method="post">
@@ -35,7 +53,7 @@
 				</select></td>
 			</tr>
 			<tr>
-				<td><input type="submit" value="저장"> <input
+				<td colspan="2"><input type="submit" value="저장"> <input
 					type="reset" value="취소"></td>
 			</tr>
 		</table>
